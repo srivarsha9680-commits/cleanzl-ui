@@ -4,9 +4,7 @@ import "./App.css";
 function App() {
   const [products, setProducts] = useState([]);
 
-  // Fetch products from backend (replace with your worker URL later)
   useEffect(() => {
-    // Temporary dummy data
     setProducts([
       {
         id: 1,
